@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {Box, Card, CardActions, CardContent, Button, Typography} from '@material-ui/core';
+import {Card, CardActions, CardContent, Button, Typography} from '@material-ui/core';
 import './DeletarCategoria.css';
 import { useNavigate, useParams } from 'react-router-dom';
 import { buscaId, deleteId } from '../../../service/Service';
@@ -7,6 +7,7 @@ import Categoria from '../../../model/Categoria';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/TokenReduce';
 import { toast } from 'react-toastify';
+import { Box } from '@mui/material';
 
 
 

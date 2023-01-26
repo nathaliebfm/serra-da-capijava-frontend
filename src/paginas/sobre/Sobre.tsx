@@ -1,9 +1,9 @@
 import React from "react";
 import "./Sobre.css";
-import { Box, Typography, Button, TextField } from "@material-ui/core";
+import { Typography, Button, TextField } from "@material-ui/core";
 import { GitHub } from "@mui/icons-material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { Grid, Tab, Tabs } from "@mui/material";
+import { Box, Grid, Tab, Tabs } from "@mui/material";
 
 function Sobre() {
   return (

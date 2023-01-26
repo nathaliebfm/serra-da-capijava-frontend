@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {Typography, Button, Box, Card, CardActions, CardContent } from "@material-ui/core"
+import {Typography, Button, Card, CardActions, CardContent } from "@material-ui/core"
 import './DeletarProdutos.css';
 import Produtos from '../../../model/Produtos';
 import { buscaId, deleteId } from '../../../service/Service';
@@ -7,6 +7,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/TokenReduce';
 import { toast } from 'react-toastify';
+import { Box } from '@mui/material';
 
 function DeletarProdutos() {
   let navigate = useNavigate();

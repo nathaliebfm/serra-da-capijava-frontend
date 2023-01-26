@@ -2,7 +2,6 @@ import React, { useState, useEffect, ChangeEvent } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import {
-  Box,
   Card,
   CardActions,
   CardContent,
@@ -15,6 +14,7 @@ import "./ListaProdutos.css";
 import { useSelector } from "react-redux";
 import { TokenState } from "../../../store/tokens/TokenReduce";
 import { toast } from "react-toastify";
+import { Box } from "@mui/material";
 
 function ListaProdutos() {
   let navigate = useNavigate();
